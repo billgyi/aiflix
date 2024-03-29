@@ -1,6 +1,6 @@
 @extends('admin.components.main')
 @section('content')
-    <div class="text-[32px] w-full font-light text-white mx-0 md:lg:mx-6 ">
+    <div class="text-[32px]  w-full font-light text-white mx-0 md:lg:mx-6 ">
         <p class="mt-5 md:lg:mt-0 md:lg:mb-[52px]">
             Dashboard > Dummy </p>
 

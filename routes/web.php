@@ -1,10 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\DashboardController;
-<<<<<<< HEAD
 use App\Http\Controllers\Admin\DummyController;
-=======
->>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -67,9 +64,6 @@ Route::middleware('auth')->group(function () {
 Route::prefix('admin')->middleware('auth')->group(function () {
     Route::resource('dashboard', DashboardController::class);
     Route::resource('users', UserController::class);
-<<<<<<< HEAD
     Route::resource('dummy', DummyController::class);
-=======
->>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
 });
 require __DIR__ . '/auth.php';
