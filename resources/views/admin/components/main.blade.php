@@ -13,15 +13,15 @@
 <body class="font-inter bg-black">
 
     <div class="px-5 py-0 md:lg:px-[32px] md:lg:py-[25px] block md:lg:flex">
-    <div class="px-0  py-0 md:lg:px-[32px] md:lg:py-[25px] flex w-full" >
+        <div class="px-0  py-0 md:lg:px-[32px] md:lg:py-[25px] block md:lg:flex w-full">
 
 
-        {{-- Sidebar --}}
-        @include('admin.components.sidebar')
+            {{-- Sidebar --}}
+            @include('admin.components.sidebar')
 
-        @yield('content')
+            @yield('content')
 
-    </div>
+        </div>
 
 </body>
 
