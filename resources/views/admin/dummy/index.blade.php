@@ -30,7 +30,8 @@
         </div>
 
         <div id="addUser" class="   hidden">
-            <div class="  fixed right-12 my-5 w-1/2   md:lg:w-1/5 text-black rounded-lg bg-[#A6A5A5] z-50 px-7 py-[26px]">
+            <div
+                class="absolute   right-12 my-5 w-1/2   md:lg:w-1/5 text-black rounded-lg bg-[#A6A5A5] z-50 px-7 py-[26px]">
                 <h2 class="font-semibold text-[32px]">Add New Bot</h2>
 
                 <div class="block font-medium text-xl">
@@ -140,7 +141,7 @@
 
                         <div id="setUser" class="hidden  ">
                             <div
-                                class="  fixed right-12 my-5 w-2/3  md:lg:w-[37%] text-black rounded-lg bg-[#A6A5A5] z-50 px-7 py-[26px]">
+                                class="  absolute right-12 my-5 w-2/3  md:lg:w-[37%] text-black rounded-lg bg-[#A6A5A5] z-50 px-7 py-[26px]">
                                 <h2 class="font-semibold text-[32px]">Detail Bot Account</h2>
 
                                 <div class="overflow- md:lg:grid md:lg:grid-cols-2 gap-10 justify-between">
