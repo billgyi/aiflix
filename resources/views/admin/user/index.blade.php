@@ -4,7 +4,11 @@
         <p class="mt-5 md:lg:mt-0 md:lg:mb-[52px]">
             Dashboard > User </p>
 
+<<<<<<< HEAD
         <div class="mt-10 md:lg:mt-36 block md:lg:flex items-center w-full justify-between">
+=======
+        <div class="mt-36 flex items-center w-full justify-between">
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
 
             <div
                 class="flex text-[#696969] items-center  w-[300px] h-[50px] rounded-xl bg-transparent   border border-custom-purple pl-7 pr-2 relative">
@@ -19,8 +23,13 @@
                 </button>
             </div>
 
+<<<<<<< HEAD
             <button id="addUser-open"
                 class="mt-5 md:lg:mt-0 bg-custom-purple text-base text-custom-black font-semibold px-10 py-[14px] rounded-xl hover:bg-[#5d3bae] transition duration-200 flex items-center gap-3">
+=======
+            <button
+                class="bg-custom-purple text-base text-custom-black font-semibold px-10 py-[14px] rounded-xl hover:bg-[#5d3bae] transition duration-200 flex items-center gap-3">
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9 1.5V16.5M16.5 9H1.5" stroke="black" stroke-width="1.5" stroke-linecap="round"
                         stroke-linejoin="round" />
@@ -29,6 +38,7 @@
             </button>
         </div>
 
+<<<<<<< HEAD
         <div id="addUser" class="   hidden">
             <div class="  fixed right-12 my-5 w-3/4   md:lg:w-1/5 text-black rounded-lg bg-[#A6A5A5] z-50 px-7 py-[26px]">
                 <h2 class="font-semibold text-[32px]">Add New Account</h2>
@@ -72,6 +82,12 @@
 
         <div class="z-10 mt-[21px] relative overflow-x-auto shadow-md sm:rounded-lg">
             <table class=" w-full text-base text-left rtl:text-right bg-custom-black">
+=======
+
+
+        <div class="mt-[21px] relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table class="w-full text-base text-left rtl:text-right bg-custom-black">
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
                 <thead class="text-base text-gray-700  bg-custom-black dark:text-gray-400">
                     <tr>
                         <th scope="col" class="p-4">
@@ -121,24 +137,36 @@
                                 {{ $user->name }}
                             </td>
                             <td class="px-6 py-4">
+<<<<<<< HEAD
                                 1 hours 56 minutes
+=======
+                                {{ $user->time_total_bot_used }}
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
                             </td>
                             <td class="px-6 py-4">
                                 {{ date('Y-m-d', strtotime($user->account_expired)) }}
                             </td>
                             <td class="px-6 py-4">
+<<<<<<< HEAD
                                 192.032.201.1
+=======
+                                192.168.10.1
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
                             </td>
                             <td
                                 class="px-6 py-4
                             @if ($user->status == 'Berjalan') text-green-500
+<<<<<<< HEAD
                             @elseif ($user->status == 'Tidak Berjalan') text-yellow-500
+=======
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
                             @elseif($user->status == 'Expired')
                             text-red-500 @endif
                             ">
                                 {{ $user->status }}
                             </td>
                             <td class="px-6 py-4">
+<<<<<<< HEAD
                                 <button id="setUser-open" class="rounded-full border w-8 h-8 items-center">...</button>
                             </td>
                         </tr>
@@ -236,12 +264,20 @@
 
                                 </div>
                             </div>
+=======
+                                <button class="rounded-full border w-8 h-8 items-center">...</button>
+                            </td>
+                        </tr>
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
                     @endforeach
 
                 </tbody>
             </table>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
         </div>
 
     </div>

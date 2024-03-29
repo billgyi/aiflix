@@ -12,7 +12,11 @@
 
 <body class="font-inter bg-black">
 
+<<<<<<< HEAD
     <div class="px-5 py-0 md:lg:px-[32px] md:lg:py-[25px] block md:lg:flex">
+=======
+    <div class="px-0  py-0 md:lg:px-[32px] md:lg:py-[25px] flex">
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
 
 
         {{-- Sidebar --}}
@@ -24,6 +28,9 @@
 
 </body>
 
+<<<<<<< HEAD
 @include('admin.components.javascript')
 
+=======
+>>>>>>> bf5f0379350532a86628efca4caaeb6356e17337
 </html>
